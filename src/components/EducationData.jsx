@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const educationData = [
   {
     year: "2020 - 2024",
-    degree: "BSCS In Computer Science",
+    degree: "BS In Computer Science",
     institution: "IQRA UNIVERSITY",
     location: "GULSHAN, KARACHI",
     description:
