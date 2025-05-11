@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Front-End Developer",
     company: "360XpertSolutions",
-    duration: "Dec 2024 - Present",
+    duration: "Jan 2024 - Jan 2025",
     description: "Working on HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, and WordPress to build modern web applications."
   },
   {
