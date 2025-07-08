@@ -8,7 +8,7 @@ const skills = [
   { name: "Next", img: "/Next.png" },
   { name: "JAVASCRIPT", img: "/js.png" },
   { name: "Tailwind", img:"/ss.png" },
-  { name: "WORDPRESS", img: "/wp.png" },
+  { name: "Shopify", img: "/shopify.png" },
   { name: "GIT", img: "/git.png" },
 ];
 
