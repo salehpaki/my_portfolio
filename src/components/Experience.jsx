@@ -4,10 +4,10 @@ import { useRef } from "react";
 
 const experiences = [
   {
-    role: "Shopify Developer Internship",
+    role: "Junior Shopify Developer",
     company: "Volpea Solutions",
     duration: "July 2025 - Present",
-    description: "Currently working as a Front-End Development Intern focused on Shopify-based eCommerce solutions."
+    description: "Assisted in customizing Shopify themes using Liquid, HTML, CSS, and JavaScript."
   },
   {
     role: "Front-End Developer",
