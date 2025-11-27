@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "Junior Shopify Developer",
     company: "Volpea Solutions",
-    duration: "July 2025 - Present",
+    duration: "July 2025 - Nov 2025",
     description: "Assisted in customizing Shopify themes using Liquid, HTML, CSS, and JavaScript."
   },
   {
