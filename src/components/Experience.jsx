@@ -7,13 +7,13 @@ const experiences = [
     role: "Wordpress Developer",
     company: "Lead Marketing",
     duration: "Jan 2026 - Present",
-    description: "WordPress Developer with over 2 years of experience in designing, developing, and maintaining high-performance WordPress websites. Proficient in both front-end and back-end development, with hands-on experience in React.js and Tailwind CSS for building modern, responsive, and user-friendly interfaces. Strong commitment to clean code, performance optimization, and WordPress best practices. Proven ability to collaborate with cross-functional teams and deliver innovative solutions that enhance user experience and meet business goals."
+    description: "Experienced WordPress Developer with 2+ years in designing and maintaining high-performance websites. Skilled in React.js and Tailwind CSS, building responsive and user-friendly interfaces. Currently leading marketing projects, aligning web solutions with business goals and enhancing user engagement."
   },
     {
     role: "Junior Wordpress Developer",
     company: "Jantrah Tech",
     duration: "Nov 2025 - Dec 2025",
-    description: "Assisted in customizing Shopify themes using Liquid, HTML, CSS, and JavaScript."
+    description: "Junior WordPress Developer with 2 years of experience in building and maintaining responsive websites. Familiar with front-end tools like React.js and Tailwind CSS, with a focus on clean code and user-friendly designs."
   },
   {
     role: "Junior Shopify Developer",
