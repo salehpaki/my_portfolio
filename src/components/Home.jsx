@@ -86,8 +86,8 @@ const Home = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
           whileHover={{ scale: 1.1 }}
-          href="/MUHAMMAD SALEH_RESUME.pdf"
-          download="MUHAMMAD SALEH_RESUME.pdf"
+          href="/MUHAMMAD SALEH - Web Developer - CV.pdf"
+          download="MUHAMMAD SALEH - Web Developer - CV.pdf"
           className="w-[180px] md:w-auto h-10 md:h-12 mt-4 md:mt-6 flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-md shadow-md transition duration-300 hover:bg-gray-200 hover:text-gray-800"
         >
           <FaFileAlt className="mr-2 text-lg" /> SEE MY RESUME
