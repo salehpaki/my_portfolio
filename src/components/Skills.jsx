@@ -5,7 +5,7 @@ const skills = [
   { name: "HTML", img: "/Html.png" },
   { name: "CSS", img: "/Css.png" },
   { name: "React", img: "/React.png" },
-  { name: "Next", img: "/Next.png" },
+  { name: "Wordpress", img: "/174881.png" },
   { name: "JAVASCRIPT", img: "/js.png" },
   { name: "Tailwind", img:"/ss.png" },
   { name: "Shopify", img: "/shopify.png" },
