@@ -81,7 +81,7 @@ const Home = () => {
           ))}
         </motion.div>
 
-        <motion.a
+        {/* <motion.a
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
@@ -91,7 +91,36 @@ const Home = () => {
           className="w-[180px] md:w-auto h-10 md:h-12 mt-4 md:mt-6 flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-md shadow-md transition duration-300 hover:bg-gray-200 hover:text-gray-800"
         >
           <FaFileAlt className="mr-2 text-lg" /> SEE MY RESUME
-        </motion.a>
+        </motion.a> */}
+        <motion.div className="flex space-x-4 mt-4 md:mt-6">
+  {/* Resume Button */}
+  <motion.a
+    initial={{ scale: 0.8, opacity: 0 }}
+    animate={{ scale: 1, opacity: 1 }}
+    transition={{ duration: 1, delay: 0.8 }}
+    whileHover={{ scale: 1.1 }}
+    href="/MUHAMMAD SALEH - Web Developer - CV.pdf"
+    download="MUHAMMAD SALEH - Web Developer - CV.pdf"
+    className="w-[180px] md:w-auto h-10 md:h-12 flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-md shadow-md transition duration-300 hover:bg-gray-200 hover:text-gray-800"
+  >
+    <FaFileAlt className="mr-2 text-lg" /> SEE MY RESUME
+  </motion.a>
+
+  {/* Hire Me Button */}
+  <motion.a
+    initial={{ scale: 0.8, opacity: 0 }}
+    animate={{ scale: 1, opacity: 1 }}
+    transition={{ duration: 1, delay: 0.9 }}
+    whileHover={{ scale: 1.1 }}
+    href="https://wa.me/923162252161"  // <-- Replace with your number
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-[180px] md:w-auto h-10 md:h-12 flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-md shadow-md transition duration-300 hover:bg-gray-200 hover:text-gray-800"
+  >
+    HIRE ME
+  </motion.a>
+</motion.div>
+
       </motion.div>
 
       <motion.div
