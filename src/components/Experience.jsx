@@ -4,6 +4,18 @@ import { useRef } from "react";
 
 const experiences = [
   {
+    role: "Wordpress Developer",
+    company: "Lead Marketing",
+    duration: "Jan 2026 - Present",
+    description: "Assisted in customizing Shopify themes using Liquid, HTML, CSS, and JavaScript."
+  },
+    {
+    role: "Junior Wordpress Developer",
+    company: "Volpea Solutions",
+    duration: "Nov 2025 - Dec 2025",
+    description: "Assisted in customizing Shopify themes using Liquid, HTML, CSS, and JavaScript."
+  },
+  {
     role: "Junior Shopify Developer",
     company: "Volpea Solutions",
     duration: "July 2025 - Nov 2025",
