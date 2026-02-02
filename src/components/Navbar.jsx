@@ -29,13 +29,10 @@ const Navbar = () => {
           onClick={() => handleNavigation("home")}
         >
           <img
-            src="/salehlogo.png"
+            src="/salehlogo5.png"
             alt="SALEH Logo"
             className="h-10 w-10 mr-3 object-contain"
           />
-          <span className="text-white font-bold text-2xl hidden sm:inline">
-            SALEH
-          </span>
         </div>
 
         {/* Desktop Menu */}
