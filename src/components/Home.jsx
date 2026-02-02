@@ -45,7 +45,7 @@ const Home = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="md:mt-4 text-base md:text-lg max-w-xl transition duration-500 hover:text-blue-200 mb-5"
         >
-          I’m a creative and detail-oriented Front-end Web Developer dedicated to crafting seamless, visually engaging, and high-performance web experiences. With a strong passion for clean design and intuitive user interfaces, I transform ideas into reality through modern web technologies.
+          Web Developer with over 2 years of experience in designing, developing, and maintaining high-performance WordPress websites. Proficient in both front-end and back-end development, with hands-on experience in React.js and Tailwind CSS for building modern, responsive, and user-friendly interfaces. Strong commitment to clean code, performance optimization, and WordPress best practices. Proven ability to collaborate with cross-functional teams and deliver innovative solutions that enhance user experience and meet business goals.
         </motion.p>
 
         <motion.div className="flex space-x-4 mt-6 md:mt-8 flex-wrap md:flex-nowrap mb-4 md:mb-0">
