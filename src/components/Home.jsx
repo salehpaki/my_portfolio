@@ -112,7 +112,7 @@ const Home = () => {
     animate={{ scale: 1, opacity: 1 }}
     transition={{ duration: 1, delay: 0.9 }}
     whileHover={{ scale: 1.1 }}
-    href="https://wa.me/923162252161"  // <-- Replace with your number
+    href="https://wa.me/923162252161" 
     target="_blank"
     rel="noopener noreferrer"
     className="w-[180px] md:w-auto h-10 md:h-12 flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-md shadow-md transition duration-300 hover:bg-gray-200 hover:text-gray-800"
