@@ -127,9 +127,9 @@ const Home = () => {
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="w-full md:w-[400px] h-auto md:h-full overflow-hidden shadow-lg rounded-lg"
+className="w-[180px] h-[180px] md:w-[450px] md:h-[450px] rounded-full overflow-hidden"
       >
-        <img src="/sn.png" alt="Muhammad Saleh" className="w-full h-full object-cover" />
+        <img src="/sn1.png" alt="Muhammad Saleh" className="w-full h-full object-cover" />
       </motion.div>
     </motion.div>
   );
