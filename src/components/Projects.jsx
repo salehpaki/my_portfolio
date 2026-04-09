@@ -77,7 +77,7 @@ const Projects = () => {
     >
       {/* Heading */}
       <h2 className="text-3xl font-bold mb-10 text-gray-900">
-        Featured Projects
+        Projects
       </h2>
 
       {/* Grid (3 in one line on large screens) */}
