@@ -4,6 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Twenty47logistics",
+      icon: "/logistics.jpeg",
       description:
         "Logistics platform with same-day & next-day delivery, tracking system, and customer support.",
       points: [
@@ -15,6 +16,7 @@ const Projects = () => {
     },
     {
       title: "ApartmentforSale",
+      icon: "/dubai.png",
       description:
         "Dubai real estate platform with listings, payment plans, and investment insights.",
       points: [
@@ -26,6 +28,7 @@ const Projects = () => {
     },
     {
       title: "Grace Valley Islamabad",
+      icon: "/islamabad.png",
       description:
         "Housing project website with plots, location details, and booking plans.",
       points: [
@@ -37,6 +40,7 @@ const Projects = () => {
     },
     {
       title: "Askari Towers Islamabad",
+      icon: "/tower.png",
       description:
         "High-rise apartment project with floor plans and investment details.",
       points: [
@@ -48,23 +52,25 @@ const Projects = () => {
     },
     {
       title: "Ellington Sands 2 Dubai",
+      icon: "/beach.png",
       description:
-        "Luxury beachfront residential project by Ellington Properties on Dubai Islands with premium sea-view living.",
+        "Luxury beachfront residential project by Ellington Properties on Dubai Islands.",
       points: [
-        "Beachfront apartments, duplexes & penthouses",
-        "Resort-style amenities & wellness spaces",
-        "Prime Dubai Islands investment location",
+        "Beachfront apartments & penthouses",
+        "Resort-style amenities",
+        "Prime Dubai Islands location",
       ],
       link: "https://ellingtonsands2.com/",
     },
     {
       title: "The Valley by Emaar",
+      icon: "/green.png",
       description:
-        "Master-planned suburban community by Emaar offering family-friendly villas and townhouses.",
+        "Master-planned suburban community offering villas and townhouses.",
       points: [
-        "Green parks, sports & community living",
-        "Modern villas & townhouses design",
-        "Easy access to Downtown Dubai",
+        "Green parks & community living",
+        "Modern villa designs",
+        "Easy access to Dubai city",
       ],
       link: "https://thevalleybyemaar.salesoffice1.com/",
     },
@@ -80,17 +86,24 @@ const Projects = () => {
         Projects
       </h2>
 
-      {/* Grid (3 in one line on large screens) */}
+      {/* Grid */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl w-full">
         {projects.map((project, index) => (
           <div
             key={index}
             className="bg-white border border-gray-200 rounded-lg p-5 shadow-sm hover:shadow-md transition duration-300"
           >
-            {/* Title */}
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              {project.title}
-            </h3>
+            {/* Title with Icon */}
+            <div className="flex items-center gap-2 mb-2">
+              <img
+                src={project.icon}
+                alt={project.title}
+                className="w-12 h-12 object-contain"
+              />
+              <h3 className="text-lg font-semibold text-gray-900">
+                {project.title}
+              </h3>
+            </div>
 
             {/* Description */}
             <p className="text-sm text-gray-600 mb-3 leading-relaxed">
