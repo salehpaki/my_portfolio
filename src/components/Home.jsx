@@ -88,7 +88,7 @@ const Home = () => {
   {/* Resume Button */}
   <motion.a
     whileHover={{ scale: 1.05 }}
-    href="/MUHAMMAD SALEH - Web Developer - CV.pdf"
+    href="/MUHAMMAD SALEH - Web Developer - CV.pdf.pdf"
     download="MUHAMMAD SALEH - Web Developer - CV.pdf"
     className="flex-1 h-11 md:h-12 flex items-center justify-center bg-white text-black text-sm md:text-base font-medium rounded-md shadow-md hover:bg-gray-200 transition duration-300"
   >
