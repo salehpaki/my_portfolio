@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
      {
       title: "Lead Marketing Company Website",
-      icon: "/lead.webp",
+      icon: "/lead.png",
       description:
         "Corporate real estate marketing company website showcasing projects, services, and client offerings.",
       points: [
