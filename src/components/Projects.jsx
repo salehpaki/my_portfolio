@@ -2,6 +2,18 @@ import React from "react";
 
 const Projects = () => {
   const projects = [
+     {
+      title: "Lead Marketing Company Website",
+      icon: "/lead.webp",
+      description:
+        "Corporate real estate marketing company website showcasing projects, services, and client offerings.",
+      points: [
+        "Professional company portfolio",
+        "Real estate project listings",
+        "Lead generation & contact system",
+      ],
+      link: "https://theleadmarketing.com/",
+    },
     {
       title: "Twenty47logistics",
       icon: "/logistics.jpeg",
@@ -25,18 +37,6 @@ const Projects = () => {
         "High ROI investment opportunities",
       ],
       link: "https://apartmentsforsaleindubai.ae/",
-    },
-    {
-      title: "Grace Valley Islamabad",
-      icon: "/islamabad.png",
-      description:
-        "Housing project website with plots, location details, and booking plans.",
-      points: [
-        "CDA-approved secure society",
-        "Prime GT Road location",
-        "Flexible plot installment plans",
-      ],
-      link: "https://gracevalleyislamabad.com/",
     },
     {
       title: "Spot Tracker Web App",
