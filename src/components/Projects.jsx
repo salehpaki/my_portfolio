@@ -39,16 +39,16 @@ const Projects = () => {
       link: "https://gracevalleyislamabad.com/",
     },
     {
-      title: "Askari Towers Islamabad",
-      icon: "/tower.png",
+      title: "Spot Tracker Web App",
+      icon: "/tracker.png",
       description:
-        "High-rise apartment project with floor plans and investment details.",
+        "Real-time location tracking web app with interactive map and live updates.",
       points: [
-        "Modern high-rise living",
-        "Detailed floor plans & units",
-        "Booking & inquiry system",
+        "Live location tracking",
+        "Interactive map interface",
+        "Responsive & fast performance",
       ],
-      link: "https://askaritowers.salesoffice1.com/",
+      link: "https://spot-tracker1.vercel.app/",
     },
     {
       title: "Ellington Sands 2 Dubai",
@@ -62,18 +62,18 @@ const Projects = () => {
       ],
       link: "https://ellingtonsands2.com/",
     },
-    {
-      title: "The Valley by Emaar",
-      icon: "/green.png",
-      description:
-        "Master-planned suburban community offering villas and townhouses.",
-      points: [
-        "Green parks & community living",
-        "Modern villa designs",
-        "Easy access to Dubai city",
-      ],
-      link: "https://thevalleybyemaar.salesoffice1.com/",
-    },
+      {
+        title: "Nexcent Landing Page",
+        icon: "/green.png",
+        description:
+          "Modern business landing page showcasing services, features, and digital solutions.",
+        points: [
+          "Clean and modern UI design",
+          "Fully responsive layout",
+          "Optimized performance",
+        ],
+        link: "https://nexcent-com.vercel.app/",
+      },
   ];
 
   return (
